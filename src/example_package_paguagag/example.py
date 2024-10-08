@@ -5,7 +5,3 @@ def add_one(number):
 def add_two(number):
     # Add two to the number
 		return number + 2
-
-def add_three(number):
-    # Add three to the number
-		return number + 3
