@@ -32,7 +32,6 @@ jobs:
       # Build package
       - name: Build package
         run: |
-          cd src/example_package_paguagag  # Change directory to the source where pyproject.toml is located
           python -m build
 
       # Upload artifacts (e.g., dist files)
@@ -40,4 +39,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: dist
-          path: src/dist/*
+          path: dist/*
