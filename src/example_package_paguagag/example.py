@@ -13,3 +13,7 @@ def add_three(number):
 def add_four(number):
 		# Add four to the number
 		return number + 4
+
+def add_five(number):
+		# Add five to the number
+		return number + 5
