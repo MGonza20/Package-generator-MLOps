@@ -9,3 +9,7 @@ def add_two(number):
 def add_three(number):
 		# Add three to the number
 		return number + 3
+
+def add_four(number):
+		# Add four to the number
+		return number + 4
